@@ -1,0 +1,100 @@
+@font-face {
+    font-family:        "LifeCraft";
+    src:                url(../Fonts/LifeCraft_Font.ttf);
+}
+
+body {
+    background-image:   url(../Images/background/WoW.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:  no-repeat;
+    background-size:    cover;
+}
+
+#mainframe {
+    background-color:   rgba(0, 0, 0, 0.7);             /*semi-transparent background. The last value is opacity*/
+    color:              darkgoldenrod;
+    margin-left:        20%;
+    margin-right:       20%;
+    border:             solid;
+    padding:            10px;
+}
+
+#portrait {
+    float:              right;
+    overflow:           auto;
+    width:              160px;
+    border:             darkgoldenrod solid 5px;
+    background-image:   url(https://via.placeholder.com/40.png?text=Scroll);
+    background-repeat:  no-repeat;
+    background-position: top right;
+    background-size:    100px;
+}
+
+p {
+    background-color:   rgba(0, 0, 0, 0.7);
+    padding:            25px;
+    padding-left:       50px;
+    margin:             30px;
+    border-color:       darkgoldenrod;
+    border-width:       1px;
+    border-style:       solid;
+    border-radius:      15px;
+    }
+
+.list {
+    border-radius:      none;
+    text-align:         center;
+    padding:            10px;
+}
+
+.icon {
+    width:              90px;
+    height:             90px;
+}
+
+.specIcon {
+    width:              90px;
+    float:              right;
+}
+
+.stamp {
+    width:              40px;
+    height:             40px;
+}
+
+#roleplay {
+    line-height:        1.9em;
+    font-style:         italic;
+    /* background-image:   url(https://via.placeholder.com/40.png?text=Scroll); */
+    background-repeat:  no-repeat;
+    background-position: top left;
+}
+
+.roleplay h1, h2, h3{
+    font-family:        sans-serif;
+}
+
+h1, h2 {
+    font-family:        "LifeCraft";
+    font-size:          200%;
+}
+
+h1 {
+    text-align:         center;
+}
+
+code { 
+    font-family:        monospace;
+    color:              white;
+  }
+
+button {
+    text-decoration:    none;
+}
+
+img {
+    padding:            1px;
+    max-width:100%;
+    max-height:100%;
+}
